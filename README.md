@@ -1,6 +1,10 @@
 <?php
+
+# 两步验证
+
+```
 /**
- * 验证
+ * 验证类
  */
 class authenticator
 {
@@ -98,3 +102,4 @@ class authenticator
 $opt = new authenticator('key');
 var_dump($opt->now());
 var_dump($opt->verify('203172'));
+```
